@@ -4,7 +4,7 @@ description: >-
   connected display
 
 post-provisioning: >-
-  [![balena](https://github.com/balena-labs-projects/browser/actions/workflows/balena.yml/badge.svg)](https://github.com/balena-labs-projects/browser/actions/workflows/balena.yml)
+  [![balena](https://github.com/marc6/browser/actions/workflows/balena.yml/badge.svg)](https://github.com/balena-labs-projects/browser/actions/workflows/balena.yml)
 
   ## Usage instructions
 
@@ -12,7 +12,7 @@ post-provisioning: >-
     
     ```
     browser:
-      image: bh.cr/balenalabs/browser-<arch> # where <arch> is one of aarch64, arm32 or amd64
+      image: bh.cr/marc6/browser-<arch> # where <arch> is one of aarch64, arm32 or amd64
       privileged: true # required for UDEV to find plugged in peripherals such as a USB mouse
       network_mode: host
       volumes:
@@ -23,7 +23,7 @@ post-provisioning: >-
 
     ```
       browser:
-        image: bh.cr/balenalabs/browser-<arch>/<version>
+        image: bh.cr/marc6/browser-<arch>/<version>
         privileged: true # required for UDEV to find plugged in peripherals such as a USB mouse
         network_mode: host
         ports:
